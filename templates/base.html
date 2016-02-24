@@ -58,7 +58,7 @@
                         <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
                         {% endfor %}
                         {% endif %}
-                        <li><a href="{{SITEURL}}/archives.html">Archives</a></li>
+                        <li><a href="{{SITEURL}}/archives.html">Arsip</a></li>
                     </ul>
                 </div>
             </nav>
@@ -83,7 +83,7 @@
                     <div class="col l3 s12">
                         <h5 class="grey-text">Flux</h5>
                         <ul>
-                            <li><a class="grey-text" href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" title="Flux Atom du {{ SITENAME }}">Atom</a></li>
+                            <li><a class="grey-text" href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" title="Berlangganan Atom {{ SITENAME }}">Atom</a></li>
                         </ul>
                     </div>
                     <div class="col l3 s12">
@@ -100,7 +100,7 @@
             </div>
             <div class="footer-copyright">
                 <div class="container center grey-text text-darken-2">
-                    Carefully handcrafted with <i class="mdi-action-favorite"></i> - CC-BY-NC-SA
+                    Powered by <a href="http://blog.getpelican.com/">Pelican</a>, Hosted by <a href="https://pages.github.com/">Github</a> <i class="mdi-action-favorite"></i> - CC-BY-NC-SA
                 </div>
             </div>
         </footer>
